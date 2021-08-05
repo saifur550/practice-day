@@ -1,9 +1,21 @@
+//input user marks
+var marks = 100;
 
-// var studentmarks = prompt(" Enter Your Exam marks Number");
-var studentmarks =79;
-
-if (100 < 109){
-    console.log("A+");
-}else{
-    console.log("A");
+// if condition
+if (marks >= 80) {
+  console.log("A+");
+} else if (marks >= 70) {
+  console.log("A");
+} else if (marks >= 60) {
+  console.log("A-");
+} else if (marks >= 50) {
+  console.log("B");
+} else if (marks >= 40) {
+  console.log("C");
+} else if (marks >= 33) {
+  console.log("D");
+} else {
+  console.log("Fail");
 }
+
+//    node js/grade.js
